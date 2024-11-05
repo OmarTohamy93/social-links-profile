@@ -1,0 +1,88 @@
+@font-face {
+    font-family: 'Inter-regular';
+    src: url(./assets/fonts/static/Inter-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Inter-Bold';
+    src: url(./assets/fonts/static/Inter-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'Inter-SemiBold';
+    src: url(./assets/fonts/static/Inter-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: 'Inter-VariableFont';
+    src: url(./assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+body {
+    background-color: hsl(0, 0%, 8%);
+}
+
+main {
+    width: 450px;
+    margin: 100px auto;
+    padding: 40px;
+    background-color: hsl(0, 0%, 12%);
+    border-radius: 20px;
+    height: auto;
+}
+
+.profile-image img {
+    border-radius: 50%;
+    margin: 25px auto;
+    width: 150px;
+    display: block;
+
+}
+
+.info {
+    text-align: center;
+    font-family: "Inter-regular";
+}
+
+.info h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: hsl(0, 0%, 100%);
+}
+
+.info h2 {
+    font-size: 1.1em;
+    color: hsl(75, 94%, 57%);
+    margin-bottom: 30px;
+}
+
+.info p {
+    font-size: 1.1rem;
+    color: hsl(0, 0%, 100%);
+    margin-bottom: 30px;
+}
+
+.social-meida-links a {
+    text-decoration: none;
+    font-family: "Inter-Bold";
+    background-color: hsl(0, 0%, 20%);
+    display: block;
+    margin: 15px auto;
+    padding: 15px 10px;
+    text-align: center;
+    border-radius: 4%;
+    height: 50px;
+    color: hsl(0, 0%, 100%);
+
+
+}
+
+.social-meida-links a:hover {
+    background-color: hsl(75, 94%, 57%);
+}
